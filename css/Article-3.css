@@ -1,0 +1,52 @@
+.blockquote {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+    margin-top: 20px; 
+    border: 3px solid blue;
+    position: absolute;
+    /* top: 380px;
+    left: 30%;
+    right: 30%; */
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 200px;
+    margin-left: auto;
+    text-align: center;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+   
+  }
+  .js-image {
+    width: 200px; 
+    height: auto; 
+    z-index: 2; 
+  }
+  .grid-container div {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .container {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  
+    .container {
+      flex-direction: row-reverse;
+    }
+  }
